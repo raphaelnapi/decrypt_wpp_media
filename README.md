@@ -5,6 +5,19 @@ Script em **Python** para **descriptografar arquivos de mídia do WhatsApp (.enc
 Este script foi desenvolvido para **fins de computação forense**, permitindo recuperar mídias a partir das URLs presentes na tabela `message_media`.
 
 ---
+# Uso
+```
+python decrypt_media.py [arquivo_entrada] [tipo_midia] [media_key] [arquivo_saida]
+```
+
+# Tipos de mídia suportados
+
+```
+image
+video
+audio
+document
+```
 
 # Exemplo de uso
 
